@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4F46E5" /> <!-- Indigo -->
+      <stop offset="100%" stop-color="#9333EA" /> <!-- Purple -->
+    </linearGradient>
+    <!-- QR Code Elements Gradient -->
+    <linearGradient id="qr-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#E0E7FF" />
+    </linearGradient>
+  </defs>
+
+  <!-- Rounded Background -->
+  <rect width="512" height="512" rx="128" fill="url(#bg-grad)" />
+
+  <!-- Outer QR Frame / Position Patterns -->
+  <!-- Top Left Position Pattern -->
+  <rect x="80" y="80" width="120" height="120" rx="24" fill="none" stroke="url(#qr-grad)" stroke-width="24" />
+  <rect x="116" y="116" width="48" height="48" rx="8" fill="url(#qr-grad)" />
+
+  <!-- Top Right Position Pattern -->
+  <rect x="312" y="80" width="120" height="120" rx="24" fill="none" stroke="url(#qr-grad)" stroke-width="24" />
+  <rect x="348" y="116" width="48" height="48" rx="8" fill="url(#qr-grad)" />
+
+  <!-- Bottom Left Position Pattern -->
+  <rect x="80" y="312" width="120" height="120" rx="24" fill="none" stroke="url(#qr-grad)" stroke-width="24" />
+  <rect x="116" y="348" width="48" height="48" rx="8" fill="url(#qr-grad)" />
+
+  <!-- QR Pixels / Decorative Code Patterns in Center/Right -->
+  <!-- Center Pixel Group -->
+  <rect x="248" y="120" width="24" height="48" rx="8" fill="url(#qr-grad)" />
+  <rect x="248" y="200" width="48" height="24" rx="8" fill="url(#qr-grad)" />
+  <rect x="120" y="248" width="48" height="24" rx="8" fill="url(#qr-grad)" />
+  <rect x="200" y="248" width="24" height="48" rx="8" fill="url(#qr-grad)" />
+  
+  <!-- Right Pixel Group -->
+  <rect x="312" y="248" width="48" height="24" rx="8" fill="url(#qr-grad)" />
+  <rect x="348" y="288" width="24" height="24" rx="6" fill="url(#qr-grad)" />
+  
+  <!-- Center Core Pixel -->
+  <rect x="244" y="244" width="24" height="24" rx="6" fill="url(#qr-grad)" />
+
+  <!-- Bottom Right Area Patterns -->
+  <rect x="248" y="348" width="48" height="24" rx="8" fill="url(#qr-grad)" />
+  <rect x="288" y="388" width="24" height="44" rx="8" fill="url(#qr-grad)" />
+  <rect x="388" y="248" width="44" height="24" rx="8" fill="url(#qr-grad)" />
+  <rect x="348" y="348" width="48" height="48" rx="8" fill="url(#qr-grad)" />
+</svg>
